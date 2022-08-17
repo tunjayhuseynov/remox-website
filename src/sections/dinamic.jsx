@@ -49,7 +49,7 @@ function Dinamic() {
         },
         {
             id: 2,
-            url: 'app_payroll_white',
+            url: 'app_payroll_White',
             header: 'Payroll Management',
             text: 'Automate your recurring payments to meet payment deadlines. Manage crypto payroll and mass payouts to keep the process organized, easy and efficient.'
         },
@@ -85,7 +85,7 @@ function Dinamic() {
         },
         {
             id: 8,
-            url: 'insights',
+            url: 'Insights',
             header: 'Insights & Reporting',
             text: 'Monitor your budget expenses and cash flow movement with detailed insights in one place. Understand how money is spent and where it is spent across your wallets, through live reporting.'
         }
@@ -99,7 +99,7 @@ function Dinamic() {
                 <div className="w-full h-full flex justify-center items-center  ml-4">
                     <div className=" bg-[url('../public/ipad.png')] bg-cover bg-local bg-center bg-no-repeat w-[300px] h-[190px] sm:w-[480px] sm:h-[300px]  lg:w-[650px] lg:h-[400px] flex items-center justify-center">
                         <div className="w-[92.5%] h-[86%] sm:w-[94%] sm:h-[87.5%]  lg:w-[92.5%] lg:h-[90%] mr-1 sm:mr-2 rounded-md">
-                            <img src={`/${inViews ? 'dashboards.png' : inView2 ? 'app_contributor_white.png' : inView3 ? 'app_payroll_white.png' : inView4 ? 'app_request_white.png' : inView5 ? 'app_budget_white.png' : inView6 ? 'app_risk_white.png' : inView7 ? 'portfolio.png' : inView8 ? 'transactions.png' : 'Insights.png'  && !inViews && 'Insights.png' }`} alt="" className="w-full  h-full  rounded-md" />
+                            <img src={`/${inViews ? 'dashboards.png' : inView2 ? 'app_contributor_white.png' : inView3 ? 'app_payroll_White.png' : inView4 ? 'app_request_white.png' : inView5 ? 'app_budget_white.png' : inView6 ? 'app_risk_white.png' : inView7 ? 'portfolio.png' : inView8 ? 'transactions.png' : 'Insights.png'  && !inViews && 'Insights.png' }`} alt="" className="w-full  h-full  rounded-md" />
                         </div>
                     </div>
                 </div>
