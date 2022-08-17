@@ -26,7 +26,7 @@ export default function Sponsor() {
 
 
     return <div className="w-full py-5 bg-main relative z-[99]">
-        <div className="min-h-[175px] sm:min-h-[500px] w-full flex flex-col items-center justify-start gap-10 sm:gap-20 px-12 lg:px-12 2xl:px-0">
+        <div className="min-h-[175px] sm:min-h-[450px] w-full flex flex-col items-center justify-between pb-8 gap-16 sm:gap-12 px-12 lg:px-12 2xl:px-0">
             <div className="text-white text-center font-semibold text-3xl sm:text-5xl tracking-wider pt-6 sm:pt-12">Trusted <span className="text-primary">by</span></div>
             {/* <div className="flex sm:hidden flex-wrap lg:flex-row gap-14 lg:gap-20 pb-5 items-center justify-center">
             <img src="/moola.png" className="w-[102px] h-[30px] object-cover"/>
