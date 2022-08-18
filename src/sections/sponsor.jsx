@@ -49,12 +49,12 @@ export default function Sponsor() {
             {/* </div>  */}
             {/* <div className="hidden sm:block animate-area"></div> */}
             <div className="flex flex-col items-center w-[90%] sm:w-[70%]  gap-8 sm:gap-16 h-full ">
-                <div className="w-full h-full flex items-center justify-between"><a href="" target="_blank"><img src="/sponsor_moola.png" alt="" className="w-[120px] h-[35px]  sm:w-[260px] sm:h-[80px] cursor-pointer" /></a>
-                    <a href="" target="_blank"><img src="/sponsor_ari.png" alt="" className="w-[50px] h-[30px] sm:w-[150px] sm:h-[90px]  cursor-pointer" /></a>
-                    <a href="" target="_blank"><img src="/sponsor_poof.png" alt="" className="w-[60px] h-[35px] sm:w-[200px] sm:h-[80px]  cursor-pointer" /></a></div>
+                <div className="w-full h-full flex items-center justify-between"><img src="/sponsor_moola.png" alt="" className="w-[120px] h-[35px]  sm:w-[260px] sm:h-[80px] cursor-pointer" />
+                    <img src="/sponsor_ari.png" alt="" className="w-[50px] h-[30px] sm:w-[150px] sm:h-[90px]  cursor-pointer" />
+                    <img src="/sponsor_poof.png" alt="" className="w-[60px] h-[35px] sm:w-[200px] sm:h-[80px]  cursor-pointer" /></div>
                 <div className="w-full h-full flex items-center justify-between gap-4">
-                    <a href="" target="_blank"><img src="/sponsor_nomspace.png" alt="" className="w-[140px] h-[35px] sm:w-[380px]  sm:h-[80px] cursor-pointer xl:ml-20" /></a>
-                    <a href="" target="_blank"><img src="/sponsor_ubeswap.png" alt="" className=" w-[130px] h-[30px] sm:w-[370px]  sm:h-[70px] cursor-pointer" /></a>
+                    <img src="/sponsor_nomspace.png" alt="" className="w-[140px] h-[35px] sm:w-[380px]  sm:h-[80px] cursor-pointer xl:ml-20" />
+                    <img src="/sponsor_ubeswap.png" alt="" className=" w-[130px] h-[30px] sm:w-[370px]  sm:h-[70px] cursor-pointer" />
                 </div>
             </div>
 

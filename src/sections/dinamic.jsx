@@ -45,7 +45,7 @@ function Dinamic() {
             id: 1,
             url: 'app_contributor_white',
             header: 'Contributor Management',
-            text: 'Onboard your full & part-time contributors and manage your working teams'
+            text: 'Onboard your full & part-time contributors and manage your working teams.'
         },
         {
             id: 2,
@@ -96,7 +96,7 @@ function Dinamic() {
 
         <section class="hidden sm:flex">
             <div className='h-screen w-1/2 flex justify-center items-center z-2  sticky top-0'>
-                <div className="w-full h-full flex justify-center items-center  ml-4">
+                <div className="w-full h-full flex justify-center items-center  ml-42">
                     <div className=" bg-[url('../public/ipad.png')] bg-cover bg-local bg-center bg-no-repeat w-[300px] h-[190px] sm:w-[480px] sm:h-[300px]  lg:w-[650px] lg:h-[400px] flex items-center justify-center">
                         <div className="w-[92.5%] h-[86%] sm:w-[94%] sm:h-[87.5%]  lg:w-[92.5%] lg:h-[90%] mr-1 sm:mr-2 rounded-md">
                             <img src={`/${inViews ? 'dashboards.png' : inView2 ? 'app_contributor_white.png' : inView3 ? 'app_payroll_White.png' : inView4 ? 'app_request_white.png' : inView5 ? 'app_budget_white.png' : inView6 ? 'app_risk_white.png' : inView7 ? 'portfolio.png' : inView8 ? 'transactions.png' : 'Insights.png'  && !inViews && 'Insights.png' }`} alt="" className="w-full  h-full  rounded-md" />
@@ -104,7 +104,7 @@ function Dinamic() {
                     </div>
                 </div>
                 <div className="bg-[url('../public/background_5.png')] w-full h-screen absolute z-[-1]  right-[-100%]"></div>
-                <div className="bg-[url('../public/background_5.png')] w-[105%] h-screen absolute z-[-1] "></div>
+                <div className="bg-[url('../public/background_5.png')] w-[107%] h-screen absolute z-[-1] "></div>
             </div>
 
             <div className="w-1/2 flex flex-col">
@@ -120,7 +120,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView2(true) : setinView2(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-1/2">
                             <div className="text-white text-5xl tracking-wider font-bold">Contributor Management</div>
-                            <div className=" text-gray-300 text-2xl  tracking-wider w-[70%]">Onboard your full & part-time contributors and manage your working teams</div>
+                            <div className=" text-gray-300 text-2xl  tracking-wider w-[70%]">Onboard your full & part-time contributors and manage your working teams.</div>
                         </div>
                     </SomeComponent>
                 </div>
