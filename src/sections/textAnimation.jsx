@@ -3,7 +3,7 @@ import TypeAnimation from 'react-type-animation'
 
 function TextAnimation() {
     return <div className="font-semibold  text-white min-h-[100px]  sm:min-h-[300px] 2xl:min-h-[500px] bg-main relative z-[99] py-4 flex flex-col items-center w-full justify-center space-y-10 px-12 xl:px-16">
-        <div className="min-h-[150px] sm:min-h-[390px] w-full   py-4 flex flex-col items-center justify-center gap-16 sm:gap-20 px-12 lg:px-24 2xl:px-0">
+        <div className="min-h-[150px] sm:min-h-[390px] w-full   py-4 flex flex-col items-center justify-center gap-16 sm:gap-20 px-12 lg:px-32 2xl:px-24">
             <div className="text-white text-center font-semibold text-3xl pt-8 sm:pt-16 sm:text-5xl tracking-wider ">Supported <span className="text-primary">by</span></div>
             <div className="flex flex-col gap-16 w-full h-full items-center justify-center">
                 {/* <img src="/founder_group.png" alt="" className="w-full h-full object-cover" /> */}
