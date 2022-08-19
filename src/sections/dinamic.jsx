@@ -69,7 +69,7 @@ function Dinamic() {
             id: 5,
             url: 'app_risk_white',
             header: 'Risk Assessment',
-            text: 'Monitor risks in crypto assets and DeFi protocols Mitigate Potential losses associated with technical and economic risks.'
+            text: 'Monitor risks in crypto assets and DeFi protocols. Mitigate potential losses associated with technical and economic risks.'
         },
         {
             id: 6,
@@ -81,7 +81,7 @@ function Dinamic() {
             id: 7,
             url: 'transactions',
             header: 'Bookkeeping & Accounting',
-            text: 'Record and track your transactions with custom labeling. Prepare real time financial statements and share with your community.'
+            text: 'Record and track your transactions with custom labelling. Prepare real time financial statements and share with your community.'
         },
         {
             id: 8,
@@ -152,7 +152,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView6(true) : setinView6(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
                             <div className="text-white text-5xl tracking-wider font-bold">Risk Assessment</div>
-                            <div className=" text-gray-300 text-2xl  tracking-wider w-[70%]">Monitor risks in crypto assets and DeFi protocols Mitigate Potential losses associated with technical and economic risks.</div>
+                            <div className=" text-gray-300 text-2xl  tracking-wider w-[70%]">Monitor risks in crypto assets and DeFi protocols. Mitigate potential losses associated with technical and economic risks.</div>
                         </div>
                     </SomeComponent>
                 </div>
@@ -168,7 +168,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView8(true) : setinView8(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
                             <div className="text-white text-5xl tracking-wider font-bold">Bookkeeping & Accounting</div>
-                            <div className=" text-gray-300 text-2xl  tracking-wider w-[70%]">Record and track your transactions with custom labeling. Prepare real time financial statements and share with your community.</div>
+                            <div className=" text-gray-300 text-2xl  tracking-wider w-[70%]">Record and track your transactions with custom labelling. Prepare real time financial statements and share with your community.</div>
                         </div>
                     </SomeComponent>
                 </div>
