@@ -16,7 +16,7 @@ export default function Footer() {
                 <div className="flex flex-col  gap-2">
                     <div className="text-white text-xl pb-2">Company</div>
                     <a href="https://medium.com/remoxhq" target="_blank" className="text-gray-400 hover:transition-all hover:text-primary">Blog</a>
-                    <a href="https://github.com/remoxhq/Remox" target="_blank" className="text-gray-400 hover:transition-all hover:text-primary">Documentation</a>
+                    <a href="https://demo.remox.io" target="_blank" className="text-gray-400 hover:transition-all hover:text-primary">Demo</a>
                 </div>
                 <div className="flex flex-col gap-2 ">
                     <div className="text-white text-xl pb-2">Social</div>

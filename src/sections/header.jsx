@@ -8,7 +8,7 @@ export default function Header() {
   return <div className="w-full h-full">
 
     <div className="text-center flex flex-col items-center px-8  sm:px-0   space-y-12 pt-24 tracking-wider h-[250px] sm:h-[350px] lg:h-[450px] justify-center w-full">
-      <h1 className="text-white font-semibold text-3xl sm:text-5xl w-full">
+      <h1 className="text-white font-semibold text-3xl sm:text-[55px] w-full">
 
         <span>Simplified  and Collaborative<br /></span>
         <div className="sm:pt-6">
@@ -19,14 +19,14 @@ export default function Header() {
           </TextLoop>{" "} </div>
       </h1>
 
-      <h2 className="text-[#E5E5E5]  leading-6 px-3  sm:px-1 text-left md:text-center tracking-wider break-words font-semibold md:px-0">
+      <h2 className="text-[#E5E5E5]  leading-6 px-3  sm:px-1 text-left md:text-center tracking-wider break-words text-[20px] font-medium md:px-0">
         Connect your organization wallets, onboard your contributors, automate your payroll, <br className="hidden sm:block" />
         manage your organization expenses, do budgeting & reporting and make investments <br className="hidden sm:block" />
         in DeFi while mitigating risks with dynamic risk assessments.
       </h2>
       <div className="grid grid-cols-2 gap-20 w-[72%] lg:w-[33%]  ">
-        <div className="w-[100px] sm:w-full  text-sm lg:text-lg  font-semibold  flex items-center lg:self-center justify-center sm:px-1 h-[25px] sm:h-full  sm:py-2  rounded-md  bg-primary border-primary text-white hover:bg-[#ff5413] dark:hover:bg-[#ff5413] hover:border-[#ff5413]   hover:text-white transition-all duration-400 cursor-pointer">Coming Soon</div>
-       <a href="https://demo.remox.io/" target="_blank"> <div className="text-sm lg:text-lg  font-semibold  bg-main  text-primary border-primary  dark:bg-darkSecond hover:bg-[#131313] hover:text-primary hover:transition-all transition-all duration-400  flex items-center lg:self-center justify-center sm:px-1 h-[25px] sm:h-full  sm:py-2  w-[100px] sm:w-full  rounded-md border cursor-pointer"  >View Demo</div></a>
+        <div className="w-[100px] sm:w-full  text-sm lg:text-[20px]  font-semibold  flex items-center lg:self-center justify-center sm:px-1 h-[25px] sm:h-full  sm:py-[.9375rem]  rounded-md  bg-primary border-primary text-white hover:bg-[#ff5413] dark:hover:bg-[#ff5413] hover:border-[#ff5413]   hover:text-white transition-all duration-400 cursor-pointer">Coming Soon</div>
+       <a href="https://demo.remox.io/" target="_blank"> <div className="text-sm lg:text-[20px]  font-semibold  bg-main  text-primary border-primary  dark:bg-darkSecond hover:bg-[#131313] hover:text-primary hover:transition-all transition-all duration-400  flex items-center lg:self-center justify-center sm:px-1 h-[25px] sm:h-full    w-[100px] sm:w-full  rounded-md border cursor-pointer"  >View Demo</div></a>
       </div>
     </div>
 
