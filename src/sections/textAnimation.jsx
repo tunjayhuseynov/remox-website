@@ -2,8 +2,8 @@ import React from 'react'
 import TypeAnimation from 'react-type-animation'
 
 function TextAnimation() {
-    return <div className="font-semibold  text-white min-h-[100px]  sm:min-h-[300px] 2xl:min-h-[500px] bg-main relative z-[99] py-4 flex flex-col items-center w-full justify-center space-y-10 px-12 xl:px-16">
-        <div className="min-h-[150px] sm:min-h-[390px] w-full   py-4 flex flex-col items-center justify-center gap-16 sm:gap-20 px-12 lg:px-32 2xl:px-24">
+    return <div className="font-semibold  text-white min-h-[100px]  sm:min-h-[300px] 2xl:min-h-[500px] bg-main relative z-[99] py-4 flex flex-col items-center w-full justify-center space-y-10 px-12 xl:px-16 2xl:max-w-[1650px] mx-auto">
+        <div className="min-h-[150px] sm:min-h-[390px] w-full   py-4 flex flex-col items-center justify-center gap-16 sm:gap-20 px-12 lg:px-20 2xl:px-24">
             <div className="text-white text-center font-semibold text-3xl pt-8 sm:pt-16 sm:text-5xl tracking-wider ">Supported <span className="text-primary">by</span></div>
             <div className="flex flex-col gap-16 w-full h-full items-center justify-center">
                 {/* <img src="/founder_group.png" alt="" className="w-full h-full object-cover" /> */}
@@ -32,7 +32,7 @@ function TextAnimation() {
 
         </div>
 
-        <div className="text-2xl sm:text-4xl flex items-center justify-center !mt-0 gap-4 md:text-6xl min-h-[225px] sm:min-h-[450px]">One platform for <TypeAnimation
+        <div className="text-2xl sm:text-4xl flex items-center justify-center !mt-0 gap-4 md:text-4xl xl:text-5xl 2xl:text-6xl min-h-[225px] sm:min-h-[450px]">One platform for <TypeAnimation
             className="text-primary"
             cursor={true}
             sequence={['multi-wallet management', 1000, 'contributor management', 1000, 'payroll management', 1000, 'expense management', 1000, 'budgeting & reporting', 1000, 'risk assessment', 1000, 'portfolio management', 1000]}

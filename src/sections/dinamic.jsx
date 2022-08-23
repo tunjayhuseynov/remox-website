@@ -39,19 +39,19 @@ function Dinamic() {
             id: 0,
             url: 'dashboards',
             header: 'Multi-wallet Management',
-            text: 'Connect all your organizational wallets to monitor digital asset allocation and  transaction history.  Manage your expenses and track your cash flow in one simplified dashboard.'
+            text: 'Connect all your organizational wallets to monitor digital asset allocation and  transaction history.  Manage your expenses and track your token flow across digital wallets in a single simplified dashboard. '
         },
         {
             id: 1,
             url: 'app_contributor_white',
             header: 'Contributor Management',
-            text: 'Onboard your full & part-time contributors and manage your working teams.'
+            text: 'Build your working teams by onboarding your full & part-time contributors. Assign specific role, compensation type and amount in multiple tokens to each contributor and manage them. '
         },
         {
             id: 2,
             url: 'app_payroll_White',
             header: 'Payroll Management',
-            text: 'Automate your recurring payments to meet payment deadlines. Manage crypto payroll and mass payouts to keep the process organized, easy and efficient.'
+            text: 'Automate your recurring payments to meet payment deadlines. Manage crypto payroll and mass payouts in multiple crypto currencies to keep the process organized, easy and efficient.'
         },
         {
             id: 3,
@@ -63,7 +63,7 @@ function Dinamic() {
             id: 4,
             url: 'app_budget_white',
             header: 'Collaborative Budgeting',
-            text: 'Prepare a fully transparent budget for your organization. Share insights with your community in proposals for collaborative decision making.'
+            text: 'Prepare a fully transparent budget cycle for your organization. Share insights with your community for collective decision making.'
         },
         {
             id: 5,
@@ -75,19 +75,19 @@ function Dinamic() {
             id: 6,
             url: 'portfolio',
             header: 'Portfolio Management',
-            text: 'Create your collaborative investment portfolio based on your risk appetite and return goal to grow your digital assets in DeFi.'
+            text: 'Create different collaborative investment portfolios  based on your risk appetite and return goals. Analyze them with stress & scenario tests and discuss in joint community proposals.'
         },
         {
             id: 7,
-            url: 'transactions',
+            url: 'app_transactions_white',
             header: 'Bookkeeping & Accounting',
-            text: 'Record and track your transactions with custom labelling. Prepare real time financial statements and share with your community.'
+            text: 'Record and track your transactions with custom labeling. Prepare transparent financial reports with just a click and share with your community.'
         },
         {
             id: 8,
             url: 'Insights',
             header: 'Insights & Reporting',
-            text: 'Monitor your budget expenses and cash flow movement with detailed insights in one place. Understand how money is spent and where it is spent across your wallets, through live reporting.'
+            text: 'Monitor your budget expenses and token flow movement with detailed insights in one place. Understand how money is spent and where it is spent across your wallets, through real-time reporting.'
         }
 
     ]
@@ -96,15 +96,15 @@ function Dinamic() {
 
         <section class="hidden sm:flex">
             <div className='h-screen w-1/2 flex justify-center items-center z-2  sticky top-0'>
-                <div className="w-full h-full flex justify-center items-center  ml-42">
+                <div className="w-full h-full flex justify-center items-center  ml-[6rem]">
                     <div className=" bg-[url('../public/ipad.png')] bg-cover bg-local bg-center bg-no-repeat w-[300px] h-[190px] sm:w-[480px] sm:h-[300px]  lg:w-[650px] lg:h-[400px] flex items-center justify-center">
                         <div className="w-[92.5%] h-[86%] sm:w-[94%] sm:h-[87.5%]  lg:w-[92.5%] lg:h-[90%] mr-1 sm:mr-2 rounded-md">
-                            <img src={`/${inViews ? 'dashboards.png' : inView2 ? 'app_contributor_white.png' : inView3 ? 'app_payroll_White.png' : inView4 ? 'app_request_white.png' : inView5 ? 'app_budget_white.png' : inView6 ? 'app_risk_white.png' : inView7 ? 'portfolio.png' : inView8 ? 'transactions.png' : 'Insights.png'  && !inViews && 'Insights.png' }`} alt="" className="w-full  h-full  rounded-md" />
+                            <img src={`/${inViews ? 'app_dashbaord_white.png' : inView2 ? 'app_contributor_white.png' : inView3 ? 'app_payroll_White.png' : inView4 ? 'app_request_white.png' : inView5 ? 'app_budget_white.png' : inView6 ? 'app_risk_white.png' : inView7 ? 'portfolio.png' : inView8 ? 'app_transactions_white.png' : 'Insights.png'  && !inViews && 'Insights.png' }`} alt="" className="w-full  h-full  rounded-md" />
                         </div>
                     </div>
                 </div>
                 <div className="bg-[url('../public/background_5.png')] w-full h-screen absolute z-[-1]  right-[-100%]"></div>
-                <div className="bg-[url('../public/background_5.png')] w-[107%] h-screen absolute z-[-1] "></div>
+                <div className="bg-[url('../public/background_5.png')] w-[107%] 2xl:w-[105%] h-screen absolute z-[-1] "></div>
             </div>
 
             <div className="w-1/2 flex flex-col">
@@ -112,7 +112,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinViews(true) : setinViews(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
                             <div className="text-white text-[40px] tracking-wider font-bold">Multi-wallet Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Connect all your organizational wallets to monitor digital asset allocation and  transaction history.  Manage your expenses and track your cash flow in one simplified dashboard.</div>
+                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Connect all your organizational wallets to monitor digital asset allocation and  transaction history.  Manage your expenses and track your token flow across digital wallets in a single simplified dashboard. </div>
                         </div>
                     </SomeComponent>
                 </div>
@@ -120,7 +120,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView2(true) : setinView2(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-1/2">
                             <div className="text-white text-[40px] tracking-wider font-bold">Contributor Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Onboard your full & part-time contributors and manage your working teams.</div>
+                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Build your working teams by onboarding your full & part-time contributors. Assign specific role, compensation type and amount in multiple tokens to each contributor and manage them. </div>
                         </div>
                     </SomeComponent>
                 </div>
@@ -128,7 +128,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView3(true) : setinView3(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
                             <div className="text-white text-[40px] tracking-wider font-bold">Payroll Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Automate your recurring payments to meet payment deadlines. Manage crypto payroll and mass payouts to keep the process organized, easy and efficient.</div>
+                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Automate your recurring payments to meet payment deadlines. Manage crypto payroll and mass payouts in multiple crypto currencies to keep the process organized, easy and efficient.</div>
                         </div>
                     </SomeComponent>
                 </div>
@@ -144,7 +144,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView5(true) : setinView5(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
                             <div className="text-white text-[40px] tracking-wider font-bold">Collaborative Budgeting</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Prepare a fully transparent budget for your organization. Share insights with your community in proposals for collaborative decision making.</div>
+                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Prepare a fully transparent budget cycle for your organization. Share insights with your community for collective decision making.</div>
                         </div>
                     </SomeComponent>
                 </div>
@@ -160,7 +160,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView7(true) : setinView7(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
                             <div className="text-white text-[40px] tracking-wider font-bold">Portfolio Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Create your collaborative investment portfolio based on your risk appetite and return goal to grow your digital assets in DeFi.</div>
+                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Create different collaborative investment portfolios  based on your risk appetite and return goals. Analyze them with stress & scenario tests and discuss in joint community proposals.</div>
                         </div>
                     </SomeComponent>
                 </div>
@@ -168,7 +168,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView8(true) : setinView8(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
                             <div className="text-white text-[40px] tracking-wider font-bold">Bookkeeping & Accounting</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Record and track your transactions with custom labelling. Prepare real time financial statements and share with your community.</div>
+                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Record and track your transactions with custom labeling. Prepare transparent financial reports with just a click and share with your community.</div>
                         </div>
                     </SomeComponent>
                 </div>
@@ -176,7 +176,7 @@ function Dinamic() {
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView9(true) : setinView9(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
                             <div className="text-white text-[40px] tracking-wider font-bold">Insights & Reporting</div>
-                            <div className=" text-gray-300 text-[20px] font-medium  tracking-wider w-[70%]">Monitor your budget expenses and cash flow movement with detailed insights in one place. Understand how money is spent and where it is spent across your wallets, through live reporting.</div>
+                            <div className=" text-gray-300 text-[20px] font-medium  tracking-wider w-[70%]">Monitor your budget expenses and token flow movement with detailed insights in one place. Understand how money is spent and where it is spent across your wallets, through real-time reporting.</div>
                         </div>
                     </SomeComponent>
                 </div>
@@ -190,8 +190,8 @@ function Dinamic() {
                         <div className="bg-[url('../public/ipad.png')]  bg-cover bg-local bg-center ml-4 bg-no-repeat w-[300px] h-[190px] sm:w-[480px] sm:h-[300px]  lg:w-[630px] lg:h-[400px] flex items-center justify-center">
                             <div className="w-[92.5%] h-[86%] sm:w-[94%] sm:h-[87.5%]  lg:w-[92.5%] lg:h-[87.5%] mr-1 sm:mr-2 rounded-md"> <img src={`/${item.url}.png`} alt="" className="w-full h-full rounded-md" /> </div>
                         </div>
-                        <div className="border-box flex flex-col gap-4 items-start px-28 sm:px-0 sm:items-center justify-start pt-4 sm:pt-16 sm:pb-32 text-left w-full h-full">
-                            <div className="text-white text-3xl tracking-wider font-bold">{item.header}</div>
+                        <div className="border-box flex flex-col gap-4 items-start px-24 sm:px-0 sm:items-center justify-start pt-4 sm:pt-16 sm:pb-32 text-left w-full h-full">
+                            <div className="text-white text-2xl tracking-wider font-semibold">{item.header}</div>
                             <div className=" text-white tracking-wider font-medium">{`${item.text}`}</div>
                         </div>
                     </div>
