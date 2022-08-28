@@ -103,11 +103,11 @@ function Dinamic() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[url('../public/background_5.png')] w-full h-screen absolute z-[-1]  right-[-100%]"></div>
+                <div className="bg-[url('../public/background_5.png')] w-full h-screen absolute z-[-5]  right-[-100%]"></div>
                 <div className="bg-[url('../public/background_5.png')] w-[107%] 2xl:w-[105%] h-screen absolute z-[-1] "></div>
             </div>
 
-            <div className="w-1/2 flex flex-col">
+            <div className="w-1/2 flex flex-col relative z-[999]">
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinViews(true) : setinViews(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
@@ -185,12 +185,12 @@ function Dinamic() {
 
         {
             data.map((item, index) => {
-                return <div key={index} className={`bg-[url('../public/background_5.png')]  ${index === 6 ? "min-h-[320px] " : 'min-h-[370px] '} z-[99] bg-cover  flex sm:hidden  items-start pt-4 justify-center w-full h-full`}>
-                    <div className="flex sm:hidden flex-col gap-6 items-center">
+                return <div key={index} className={`bg-[url('../public/background_5.png')] min-h-[370px] z-[99] bg-cover  flex sm:hidden  items-start pt-4 justify-center w-full h-full`}>
+                    <div className="flex sm:hidden flex-col gap-6 mx-auto items-center w-[90%]">
                         <div className="bg-[url('../public/ipad.png')]  bg-cover bg-local bg-center ml-4 bg-no-repeat w-[300px] h-[190px] sm:w-[480px] sm:h-[300px]  lg:w-[630px] lg:h-[400px] flex items-center justify-center">
                             <div className="w-[92.5%] h-[86%] sm:w-[94%] sm:h-[87.5%]  lg:w-[92.5%] lg:h-[87.5%] mr-1 sm:mr-2 rounded-md"> <img src={`/${item.url}.png`} alt="" className="w-full h-full rounded-md" /> </div>
                         </div>
-                        <div className="border-box flex flex-col gap-4 items-start px-24 sm:px-0 sm:items-center justify-start pt-4 sm:pt-16 sm:pb-32 text-left w-full h-full">
+                        <div className="border-box w-[75%] flex flex-col gap-4  justify-start  pt-4 sm:pt-16 sm:pb-32 text-left  h-full">
                             <div className="text-white text-2xl tracking-wider font-semibold">{item.header}</div>
                             <div className=" text-white tracking-wider font-medium">{`${item.text}`}</div>
                         </div>

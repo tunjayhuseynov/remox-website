@@ -8,10 +8,10 @@ export default function Header() {
   return <div className="w-full h-full">
 
     <div className="text-center flex flex-col items-center px-8  sm:px-0   space-y-12 pt-24 tracking-wider h-[250px] sm:h-[350px] lg:h-[450px] justify-center w-full">
-      <h1 className="text-white font-semibold text-[17px] sm:text-[55px] w-full">
+      <h1 className="text-white font-bold text-[17px] sm:text-[58px] w-full ">
 
-        <span>Simplified  and Collaborative<br /></span>
-        <div className="sm:pt-6">
+        <span className='w-full relative  -bottom-2 sm:-bottom-4'>Simplified  and Collaborative<br /></span>
+        <div className="">
           Treasury Management for   <span className="text-primary">DAOs</span>
           {/* <TextLoop noWrap={false} interval={1500} className={'!w-[10.5rem] sm:!w-[13.5rem] '}>
             <span className="text-primary">DAOs</span>
@@ -21,7 +21,7 @@ export default function Header() {
           </div>
       </h1>
 
-      <h2 className="text-[#E5E5E5]  leading-6 px-3  sm:px-1 text-left md:text-center tracking-wider break-words sm:text-[20px] font-medium md:px-0">
+      <h2 className="text-[#E5E5E5]  leading-6 px-12  sm:px-1 text-left md:text-center tracking-wider break-words sm:text-[18px] !mt-[2rem] font-medium md:px-0">
         Connect your organization wallets, onboard your contributors, automate your payroll, <br className="hidden sm:block" />
         manage your organization expenses, do budgeting & reporting and make investments <br className="hidden sm:block" />
         in DeFi while mitigating risks with dynamic risk assessments.
