@@ -35,7 +35,7 @@ function TextAnimation() {
         <div className="text-2xl sm:text-4xl flex items-center justify-center !mt-0 gap-4 md:text-4xl xl:text-5xl 2xl:text-6xl min-h-[225px] sm:min-h-[450px]">One platform for <TypeAnimation
             className="text-primary"
             cursor={true}
-            sequence={['multi-wallet management', 1000, 'contributor management', 1000, 'payroll management', 1000, 'expense management', 1000, 'budgeting & reporting', 1000, 'risk assessment', 1000, 'portfolio management', 1000]}
+            sequence={['Multi-wallet Management', 1000, 'Contributor Management', 1000, 'Payroll Management', 1000, 'Expense Management', 1000, 'Collaborative Budgeting', 1000, 'Risk Assessment', 1000, 'Portfolio Management', 1000,'Bookkeeping & Accounting', 1000,'Insights & Reporting', 1000]}
             wrapper={'span'}
             repeat={Infinity}
         />

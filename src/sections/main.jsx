@@ -21,7 +21,7 @@ export default function Main() {
           <Scene duration={500} triggerHook="onEnter" >
             <Timeline
               target={
-                <div className={`bg-[url('../public/ipad.png')] scale-[0.8] mx-auto  -translate-y-[46%]  bg-cover  top-30  bg-local bg-center bg-no-repeat w-[350px] h-[220px] sm:w-[630px]  sm:h-[400px] lg:w-[850px] lg:h-[520px] flex items-center justify-center`}>
+                <div className={`bg-[url('../public/ipad.png')] scale-[0.8] mx-auto  -translate-y-[41%]  bg-cover  top-30  bg-local bg-center bg-no-repeat w-[350px] h-[220px] sm:w-[630px]  sm:h-[400px] lg:w-[850px] lg:h-[520px] flex items-center justify-center`}>
                   <img src="/dashboards.png" alt="" className="w-[92.5%] h-[86%] sm:w-[94%] sm:h-[87.5%]  lg:w-[92.5%] lg:h-[90%] mr-1 sm:mr-2 lg:mr-4  rounded-md" />
                 </div>
               }

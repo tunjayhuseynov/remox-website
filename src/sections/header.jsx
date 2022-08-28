@@ -12,11 +12,13 @@ export default function Header() {
 
         <span>Simplified  and Collaborative<br /></span>
         <div className="sm:pt-6">
-          Treasury Management for <TextLoop noWrap={false} interval={1500} className={'!w-[10.5rem] sm:!w-[13.5rem] '}>
+          Treasury Management for   <span className="text-primary">DAOs</span>
+          {/* <TextLoop noWrap={false} interval={1500} className={'!w-[10.5rem] sm:!w-[13.5rem] '}>
             <span className="text-primary">DAOs</span>
             <span className="text-primary">Companies </span>
             <span className="text-primary">Individuals</span>
-          </TextLoop>{" "} </div>
+          </TextLoop>{" "}  */}
+          </div>
       </h1>
 
       <h2 className="text-[#E5E5E5]  leading-6 px-3  sm:px-1 text-left md:text-center tracking-wider break-words sm:text-[20px] font-medium md:px-0">
