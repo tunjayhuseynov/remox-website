@@ -8,7 +8,7 @@ function TextAnimation() {
             <div className="flex flex-col gap-16 w-full h-full items-center justify-center">
                 {/* <img src="/founder_group.png" alt="" className="w-full h-full object-cover" /> */}
                 <div className="w-full h-full flex flex-col sm:flex-row items-center  sm:py-0 gap-10 sm:gap-0 justify-center sm:justify-between ">
-                <div className="sm:w-[350px]"><img src="/orangeDAO.svg" alt="" className="w-[190px] h-[80px] sm:w-[260px] sm:h-[120px] object-cover" /> </div>
+                <div className="sm:w-[350px]"><img src="/OrangeDAO.svg" alt="" className="w-[190px] h-[80px] sm:w-[260px] sm:h-[120px] object-cover" /> </div>
                <img src="/flori-ventures.svg" alt="" className="w-[85px] h-[140px] cursor-pointer  sm:w-[130px] sm:h-[210px] object-cover" />
                <img src="/allogoiv.svg" alt="" className="w-[235px] h-[60px] cursor-pointer  sm:w-[350px] sm:h-[90px] object-cover" />
                 </div>
