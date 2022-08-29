@@ -111,72 +111,72 @@ function Dinamic() {
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinViews(true) : setinViews(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Multi-wallet Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Connect all your organizational wallets to monitor digital asset allocation and  transaction history.  Manage your expenses and track your token flow across digital wallets in a single simplified dashboard. </div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Multi-wallet Management</div>
+                            <div className=" text-gray-300 text-[16px]  tracking-wider w-[70%]">Connect all your organizational wallets to monitor digital asset allocation and  transaction history.  Manage your expenses and track your token flow across digital wallets in a single simplified dashboard. </div>
                         </div>
                     </SomeComponent>
                 </div>
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView2(true) : setinView2(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-1/2">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Contributor Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Build your working teams by onboarding your full & part-time contributors. Assign specific role, compensation type and amount in multiple tokens to each contributor and manage them. </div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Contributor Management</div>
+                            <div className=" text-gray-300 text-[16px]  tracking-wider w-[70%]">Build your working teams by onboarding your full & part-time contributors. Assign specific role, compensation type and amount in multiple tokens to each contributor and manage them. </div>
                         </div>
                     </SomeComponent>
                 </div>
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView3(true) : setinView3(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Payroll Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Automate your recurring payments to meet payment deadlines. Manage crypto payroll and mass payouts in multiple crypto currencies to keep the process organized, easy and efficient.</div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Payroll Management</div>
+                            <div className=" text-gray-300 text-[16px]  tracking-wider w-[70%]">Automate your recurring payments to meet payment deadlines. Manage crypto payroll and mass payouts in multiple crypto currencies to keep the process organized, easy and efficient.</div>
                         </div>
                     </SomeComponent>
                 </div>
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView4(true) : setinView4(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Expense Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Share payment link with your community. Manage grant, bug bounty, contributor payouts and reimbursements by tracking requests and approvals.</div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Expense Management</div>
+                            <div className=" text-gray-300 text-[16px]  tracking-wider w-[70%]">Share payment link with your community. Manage grant, bug bounty, contributor payouts and reimbursements by tracking requests and approvals.</div>
                         </div>
                     </SomeComponent>
                 </div>
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView5(true) : setinView5(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Collaborative Budgeting</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Prepare a fully transparent budget cycle for your organization. Share insights with your community for collective decision making.</div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Collaborative Budgeting</div>
+                            <div className=" text-gray-300 text-[16px]  tracking-wider w-[70%]">Prepare a fully transparent budget cycle for your organization. Share insights with your community for collective decision making.</div>
                         </div>
                     </SomeComponent>
                 </div>
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView6(true) : setinView6(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Risk Assessment</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Monitor risks in crypto assets and DeFi protocols. Mitigate potential losses associated with technical and economic risks.</div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Risk Assessment</div>
+                            <div className=" text-gray-300 text-[16px]  tracking-wider w-[70%]">Monitor risks in crypto assets and DeFi protocols. Mitigate potential losses associated with technical and economic risks.</div>
                         </div>
                     </SomeComponent>
                 </div>
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView7(true) : setinView7(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Portfolio Management</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Create different collaborative investment portfolios  based on your risk appetite and return goals. Analyze them with stress & scenario tests and discuss in joint community proposals.</div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Portfolio Management</div>
+                            <div className=" text-gray-300 text-[16px]  tracking-wider w-[70%]">Create different collaborative investment portfolios  based on your risk appetite and return goals. Analyze them with stress & scenario tests and discuss in joint community proposals.</div>
                         </div>
                     </SomeComponent>
                 </div>
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView8(true) : setinView8(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Bookkeeping & Accounting</div>
-                            <div className=" text-gray-300 text-[20px]  tracking-wider w-[70%]">Record and track your transactions with custom labeling. Prepare transparent financial reports with just a click and share with your community.</div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Bookkeeping & Accounting</div>
+                            <div className=" text-gray-300 text-[16px]  tracking-wider w-[70%]">Record and track your transactions with custom labeling. Prepare transparent financial reports with just a click and share with your community.</div>
                         </div>
                     </SomeComponent>
                 </div>
                 <div className='flex items-center justify-center h-screen'>
                     <SomeComponent onVisible={(isVisible) => isVisible ? setinView9(true) : setinView9(false)}>
                         <div className="flex flex-col justify-center gap-10 items-center text-center w-full h-[60vh]">
-                            <div className="text-white text-[40px] tracking-wider font-bold">Insights & Reporting</div>
-                            <div className=" text-gray-300 text-[20px] font-medium  tracking-wider w-[70%]">Monitor your budget expenses and token flow movement with detailed insights in one place. Understand how money is spent and where it is spent across your wallets, through real-time reporting.</div>
+                            <div className="text-white text-[36px] tracking-wider font-bold">Insights & Reporting</div>
+                            <div className=" text-gray-300 text-[16px] font-medium  tracking-wider w-[70%]">Monitor your budget expenses and token flow movement with detailed insights in one place. Understand how money is spent and where it is spent across your wallets, through real-time reporting.</div>
                         </div>
                     </SomeComponent>
                 </div>
