@@ -21,7 +21,7 @@ export default function Header() {
           </div>
       </h1>
 
-      <h2 className="text-[#E5E5E5]  leading-6 px-12  sm:px-1 text-left md:text-center tracking-wider break-words sm:text-[18px] !mt-[2rem] font-medium md:px-0">
+      <h2 className="text-[#E5E5E5]  leading-6 px-12  sm:px-1 text-center tracking-wider break-words sm:text-[18px] !mt-[2rem] font-medium md:px-0">
         Connect your organization wallets, onboard your contributors, automate your payroll, <br className="hidden sm:block" />
         manage your organization expenses, do budgeting & reporting and make investments <br className="hidden sm:block" />
         in DeFi while mitigating risks with dynamic risk assessments.

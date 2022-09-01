@@ -33,8 +33,10 @@ export default function Sponsor() {
                     <img src="/sponsor_ari.svg" alt="" className="w-[60px] h-[30px] sm:w-[150px] sm:h-[90px]  cursor-pointer" />
                     <img src="/sponsor_poof.svg" alt="" className="w-[70px] h-[35px] sm:w-[200px] sm:h-[80px]  cursor-pointer" /></div>
                 <div className="w-full h-full flex items-center justify-between gap-4">
-                    <img src="/sponsor_nomspace.svg" alt="" className="w-[140px] h-[35px] sm:w-[380px]  sm:h-[80px] cursor-pointer xl:ml-20" />
-                    <img src="/sponsor_ubeswap.svg" alt="" className=" w-[130px] h-[30px] sm:w-[370px]  sm:h-[70px] cursor-pointer" />
+                    <img src="/sponsor_nomspace.svg" alt="" className="hidden sm:block  sm:h-[80px] cursor-pointer xl:ml-20" />
+                    <img src="/sponsor_ubeswap.svg" alt="" className="hidden sm:block  sm:h-[70px] cursor-pointer" />
+                    <img src="/sponsor_ubeswap.svg" alt="" className="block sm:hidden  w-[130px] h-[30px] cursor-pointer" />
+                    <img src="/sponsor_nomspace.svg" alt="" className="block sm:hidden w-[140px] h-[35px]  cursor-pointer " />
                 </div>
             </div>
 
