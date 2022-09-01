@@ -7,10 +7,13 @@ function TextAnimation() {
             <div className="text-white text-center font-bold text-3xl pt-8 sm:pt-32 sm:text-5xl tracking-wider ">Supported <span className="text-primary">by</span></div>
             <div className="flex flex-col gap-16 w-full h-full items-center justify-center">
                 {/* <img src="/founder_group.png" alt="" className="w-full h-full object-cover" /> */}
-                <div className="w-full h-full flex  items-center  justify-between  gap-8 sm:gap-0 ">
-                <div className="sm:w-[350px]"><img src="/OrangeDAO.svg" alt="" className="w-[87px] h-[40px] mr-12 sm:mr-0 sm:w-[260px] sm:h-[120px] object-cover" /> </div>
-               <img src="/flori-ventures.svg" alt="" className="w-[37px] h-[60px] cursor-pointer  sm:w-[130px] sm:h-[210px] object-cover" />
-               <img src="/allogoiv.svg" alt="" className="w-[132px] h-[35px] cursor-pointer  sm:w-[350px] sm:h-[90px] " />
+                <div className="w-full h-full flex  items-center  justify-between  gap-8 sm:gap-0 px-2 sm:px-0">
+                <div className="sm:w-[350px] hidden sm:block "><img src="/OrangeDAO.svg" alt="" className="w-[87px] h-[40px] mr-12 sm:mr-0 sm:w-[260px] sm:h-[120px] object-cover" /> </div>
+               <img src="/flori-ventures.svg" alt="" className="hidden sm:block w-[37px] h-[60px] cursor-pointer  sm:w-[130px] sm:h-[210px] object-cover" />
+               <img src="/allogoiv.svg" alt="" className="hidden sm:block w-[132px] h-[35px] cursor-pointer  sm:w-[350px] sm:h-[90px] " />
+               <div className="sm:w-[350px] block sm:hidden"><img src="/OrangeDAO-mobile.svg" alt="" className=" w-[87px] h-[40px] mr-12 sm:mr-0 sm:w-[260px] sm:h-[120px] object-cover" /> </div>
+               <img src="/flori-ventures-mobile.svg" alt="" className="block sm:hidden w-[37px] h-[60px] cursor-pointer  sm:w-[130px] sm:h-[210px] object-cover" />
+               <img src="/allogoiv-mobile.svg" alt="" className="block sm:hidden w-[132px] h-[35px] cursor-pointer  sm:w-[350px] sm:h-[90px] " />
                 </div>
                 <div className="w-full h-full flex flex-col gap-12 sm:gap-auto sm:flex-row justify-between items-center ">
                     <div className="flex items-center justify-start gap-2 border  py-3 px-5 min-w-[29rem] border-primary rounded-lg hover:bg-sec transition-all hover:transition-all">
