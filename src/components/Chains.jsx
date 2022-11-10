@@ -2,10 +2,10 @@ import React from 'react'
 
 const Chains = () => {
   return (
-    <div className='bg-white py-10 mt-10 md:mt-0 flex flex-col items-center justify-center'>
+    <div className='bg-white py-10 mt-16 md:mt-0 flex flex-col items-center justify-center'>
         <h1 className='text-2xl font-semibold'>Live <span className='text-[#FF7348]'>on</span></h1>
         <div className="chains flex w-[60%] justify-between mt-11">
-            <a href="https://ethereum.org/en/" target="_blank">
+            <a href="https://ethereum.org/en/" className='text-[16px]'>
               <img className="w-4 h-4 md:w-6 md:h-6 lg:w-8 lg:h-8 cursor-pointer" src="Icons/Chains/Ethereum.svg" alt=""/>
             </a>
             <a href="https://solana.com/" target="_blank">

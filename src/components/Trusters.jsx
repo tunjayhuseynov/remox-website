@@ -6,7 +6,7 @@ const Trusters = () => {
     Trusted <span className="text-primary">by</span>
   </h1>
   <div className="h-full w-full flex flex-col items-center justify-center">
-    <div className="flex flex-wrap justify-around items-center px-10 gap-x-4 gap-y-3 lg:gap-x-5 space-y-3 sm:space-y-0 w-[70%] ">
+    <div className="flex flex-wrap justify-around items-center px-10 gap-x-4 gap-y-3 lg:gap-x-5 space-y-3 sm:space-y-0 w-[68%] ">
       <a href="https://moola.market/" target="_blank">
         <img src="Icons/Trusters/Moola.svg" className="md:w-28 lg:w-44" alt="" />
       </a>
@@ -19,9 +19,7 @@ const Trusters = () => {
       <a href="https://ariswap.co/" target="_blank">
         <img src="Icons/Trusters/Arii.svg" alt="" />
       </a>
-      <a href="" >
-        <img src="Icons/Trusters/Spirals.svg" className="mr-14" alt="" />
-      </a>
+        <img src="Icons/Trusters/Spirals.svg" alt="" />
       <a href="https://www.nom.space/" target="_blank">
         <img src="Icons/Trusters/Nomspace.svg" alt="" />
       </a>

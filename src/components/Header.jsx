@@ -23,14 +23,14 @@ export default function Header() {
             <a href="">Connect Wallet</a>
           </button>
           <button className="text-[#FF7348] border-[1px] border-solid py-2 rounded-md border-[#FF7348] bg-transparent text-lg font-semibold">
-            <a href="">View Demo</a>
+            <a href="https://demo.remox.io/">View Demo</a>
           </button>
         </div>
         <div className="!mt-[7rem]">
           <img
             src="Icons/Header/Dashboard_header.svg"
             alt=""
-            className="w-[62rem] border-black border-solid border-4 rounded-md"
+            className="w-[62rem rounded-md"
           />
         </div>
       </div>

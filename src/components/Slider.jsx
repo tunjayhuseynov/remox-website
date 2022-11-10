@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import TypeAnimation from "react-type-animation";
 
 const sliderItems = [
   {
@@ -29,12 +30,12 @@ const sliderItems = [
   {
     index: 4,
     title: "Collaborative Budgeting",
-    text: "Prepare a fully transparent -budget cycle for your organization. Share insights with your DAO community for collective decision making.",
+    text: "Prepare a fully transparent budget cycle for your organization. Share insights with your DAO community for collective decision making.",
     src: "Icons/Slider/Budget.svg",
   },
   {
     index: 5,
-    title: "Risk Assessment",
+    title: "Risk Management",
     text: "Monitor risks in crypto assets, NFTs and DeFi protocols to mitigate potential losses associated with technical and economic risks. Manage liquidity risk by analyzing your treasury runway with portfolio stress tests and scenarios.",
     src: "Icons/Slider/Risk.svg",
   },
@@ -60,7 +61,7 @@ const sliderItems = [
 
 const Slider = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  const [currentSlideIndex, setCurrentSlideIndex] = useState(0)
+  const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
   const DashboardSVG = ({ active = false }) => (
     <img
@@ -133,7 +134,7 @@ const Slider = () => {
       alt="Risk"
     />
   );
-  
+
   const PortfolioSVG = ({ active = false }) => (
     <img
       className={`w-5 h-5`}
@@ -170,7 +171,6 @@ const Slider = () => {
     />
   );
 
-  console.log(currentSlideIndex)
 
   const sliderNav = [
     {
@@ -214,10 +214,35 @@ const Slider = () => {
   return (
     <div className="bg-white w-full text-[2.75rem] font-semibold ">
       <div className="w-full flex justify-center">
-        <h1 className="my-36 text-5xl text-center">
-          One platform for
-          <span className="text-[#FF7348]"> multi-wallet management</span>
-        </h1>
+        <div className="text-5xl text-center] my-36">
+          One platform for{" "}
+          <TypeAnimation
+            className="text-primary font-bold"
+            cursor={true}
+            sequence={[
+              "Multi-wallet Management",
+              1000,
+              "Contributor Management",
+              1000,
+              "Payroll Management",
+              1000,
+              "Expense Management",
+              1000,
+              "Collaborative Budgeting",
+              1000,
+              "Risk Management",
+              1000,
+              "Portfolio Tracking",
+              1000,
+              "Bookkeeping & Accounting",
+              1000,
+              "Insights & Reporting",
+              1000,
+            ]}
+            wrapper={"span"}
+            repeat={Infinity}
+          />
+        </div>
       </div>
       <div className="bg-[url('/public/Icons/background_2.jpg')] bg-local sm:bg-auto bg-cover bg-no-repeat mb-36">
         <div className="w-full container mx-auto h-full pt-14 pb-28 relative">
@@ -240,7 +265,9 @@ const Slider = () => {
                     <h1 className="text-4xl mb-5">{item.title}</h1>
                     <p className="text-[#707070]  text-base">{item.text}</p>
                     <button className="border-[1px] hidden lg:block  mt-3 py-2 border-solid border-[#FF7348] w-40 text-base text-[#FF7348] font-semibold rounded-md">
-                      View Demo
+                      <a href="https://demo.remox.io/">
+                         View Demo
+                      </a>
                     </button>
                   </div>
                 </SwiperSlide>
@@ -251,19 +278,19 @@ const Slider = () => {
             <Swiper id="thumbs" slidesPerView={9} onSwiper={setThumbsSwiper}>
               {sliderNav.map((nav) => {
                 return (
-                  <div key={nav.index}>
                     <SwiperSlide
                       onClick={() => {
-                        setCurrentSlideIndex(nav.index)
-                        console.log(nav.showBullet)
-                      } 
-                    }
+                        setCurrentSlideIndex(nav.index);
+                      }}
                       key={`thumb-${nav.index}`}
-                      className={`${currentSlideIndex === nav.index ? "bg-[#FADED5]" : "bg-white"}  !w-10 !h-10 rounded-[4px] flex justify-center items-center  ml-2 !shadow-custom z-20 cursor-pointer `}
+                      className={`${
+                        currentSlideIndex === nav.index
+                          ? "bg-[#FADED5]"
+                          : "bg-white"
+                      }  !w-10 !h-10 rounded-[4px] flex justify-center items-center  ml-2 !shadow-custom z-20 cursor-pointer `}
                     >
                       {nav.icon}
                     </SwiperSlide>
-                  </div>
                 );
               })}
             </Swiper>

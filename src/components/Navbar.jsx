@@ -16,7 +16,7 @@ export default function Navbar() {
                     <a href="https://discord.gg/2r4hrNEbWn" target="_blank"><FaDiscord className='text-[#000] text-white text-[1.9rem] hover:text-[#7289DA] transition-all cursor-pointer' /></a>
                 </div>
                 <div className="self-center block pl-3">
-                    <button className=" px-2 py-[0.35rem] sm:px-4 sm:py-[0.6rem] sm:text-[14px]   rounded-md font-semibold  bg-primary border-primary text-white hover:bg-[#ff5413] dark:hover:bg-[#ff5413] hover:border-[#ff5413]   hover:text-white transition-all duration-400" >Coming Soon</button>
+                    <button className=" px-2 py-[0.35rem] sm:px-4 sm:py-[0.6rem] sm:text-[14px]   rounded-md font-semibold  bg-primary border-primary text-white hover:bg-[#ff5413] dark:hover:bg-[#ff5413] hover:border-[#ff5413]   hover:text-white transition-all duration-400" >Enter App</button>
                 </div>
             </div>
         </div>
