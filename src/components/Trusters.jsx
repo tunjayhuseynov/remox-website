@@ -13,26 +13,26 @@ const Trusters = () => {
         <a href="https://celo.org/" target="_blank">
           <img src="Icons/Trusters/Celo.svg" alt="" className="w-[17rem] md:w-28 lg:w-44" />
         </a>
-        <a href="https://ariswap.co/" target="_blank">
-          <img src="Icons/Trusters/Arii.svg" alt="" className="w-[10.5rem] md:hidden md:w-28 lg:w-44" />
+        <a href="https://ariswap.co/" target="_blank" className="md:hidden">
+          <img src="Icons/Trusters/Arii.svg" alt="" className="w-[10.5rem] md:w-28 lg:w-44" />
         </a>
         <a href="https://ubeswap.org/" target="_blank">
-          <img src="Icons/Trusters/Ubeswap.svg" alt="" className="w-[23rem] md:w-28 lg:w-44" />
+          <img src="Icons/Trusters/Ubeswap.svg" alt="" className="w-[23rem] md:w-28 lg:w-[14rem]" />
         </a>
         <a href="https://www.nom.space/" target="_blank" className="md:hidden">
           <img src="Icons/Trusters/Nomspace.svg" alt="" className="w-[25rem] md:w-28 lg:w-44" />
         </a>
         <a href="https://ariswap.co/" target="_blank" className="hidden md:block">
-          <img src="Icons/Trusters/Arii.svg" alt="" className="md:w-28 lg:w-44" />
+          <img src="Icons/Trusters/Arii.svg" alt="" className="md:w-28 lg:w-24" />
         </a>
         <a href="https://spirals.so" target="_blank">
-          <img src="Icons/Trusters/Spirals.svg" alt="" className="w-[24rem] md:w-28 lg:w-44" />
+          <img src="Icons/Trusters/Spirals.svg" alt="" className="w-[24rem] md:w-28 lg:w-[14rem]" />
         </a>
         <a href="https://www.nom.space/" target="_blank" className="hidden md:block">
-          <img src="Icons/Trusters/Nomspace.svg" alt="" className="w-[17rem] md:w-28 lg:w-44" />
+          <img src="Icons/Trusters/Nomspace.svg" alt="" className="w-[17rem] md:w-28 lg:w-[14rem]" />
         </a>
         <a href="">
-          <img src="Icons/Trusters/CyberBox.svg" alt="" className="w-[25rem] md:w-28 lg:w-44" />
+          <img src="Icons/Trusters/CyberBox.svg" alt="" className="w-[25rem] md:w-28 lg:w-[14rem]" />
         </a>
       </div>
       <div>
