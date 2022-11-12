@@ -18,7 +18,7 @@ export default function Header() {
           <span className="block">DeFi while mitigating risks with
             dynamic risk assessments.</span>
         </h2>
-        <div className="grid grid-cols-2 gap-20 w-[72%] lg:w-[33%]  ">
+        <div className="grid grid-cols-2 gap-20 w-[72%] lg:w-[33%]">
           <button className="bg-[#FF7348] text-[#FFFFFF] rounded-md py-2 font-semibold text-lg hover:bg-white hover:text-[#FF7348] hover:border hover:border-[#FF7348] transition-all">
             <a href="">Connect Wallet</a>
           </button>
@@ -26,11 +26,11 @@ export default function Header() {
             View Demo
           </button>
         </div>
-        <div className="!mt-[7rem]">
+        <div className="!mt-[7rem] h-full">
           <img
             src="Icons/Header/Dashboard_header.svg"
             alt=""
-            className="w-[62rem rounded-md"
+            className="w-[62rem] rounded-md"
           />
         </div>
       </div>

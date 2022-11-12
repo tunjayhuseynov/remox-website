@@ -12,7 +12,7 @@ import TestSlider from "./components/TestSlider";
 function App() {
   return (
     <section >
-      <header className="bg-[url('/public/Icons/Header/header_background.jpg')]  h-[83rem] bg-cover bg-right-top sm:bg-center bg-no-repeat">
+      <header className="bg-[url('/public/Icons/Header/header_background.jpg')]  h-full bg-cover bg-right-top sm:bg-center bg-no-repeat">
         <Navbar />
         <Header />
       </header>

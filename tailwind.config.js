@@ -7,6 +7,9 @@ module.exports = {
         main: "#252525",
         sec: "#111111",
       },
+      screens: {
+        'xs': '400px'
+      },
       boxShadow: {
         custom : "0px 0px 4px rgba(0, 0, 0, 0.15)"
       }
