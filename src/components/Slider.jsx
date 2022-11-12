@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import TypeAnimation from "react-type-animation";
+import { Controller } from "swiper";
 
 const sliderItems = [
   {
@@ -213,40 +214,14 @@ const Slider = () => {
 
   return (
     <div className="bg-white w-full text-[2.75rem] font-semibold ">
-      <div className="w-full flex justify-center">
-        <div className="text-5xl text-center] my-36">
-          One platform for{" "}
-          <TypeAnimation
-            className="text-primary font-bold"
-            cursor={true}
-            sequence={[
-              "Multi-wallet Management",
-              1000,
-              "Contributor Management",
-              1000,
-              "Payroll Management",
-              1000,
-              "Expense Management",
-              1000,
-              "Collaborative Budgeting",
-              1000,
-              "Risk Management",
-              1000,
-              "Portfolio Tracking",
-              1000,
-              "Bookkeeping & Accounting",
-              1000,
-              "Insights & Reporting",
-              1000,
-            ]}
-            wrapper={"span"}
-            repeat={Infinity}
-          />
+      <div className="w-full flex items-center my-36">
+        <div className="text-5xl font-semibold text-center w-full relative">
+          <TypeAnimate />
         </div>
       </div>
       <div className="bg-[url('/public/Icons/background_2.jpg')] bg-local sm:bg-auto bg-cover bg-no-repeat mb-36">
         <div className="w-full container mx-auto h-full pt-14 pb-28 relative">
-          <Swiper id="main" thumbs={{ swiper: thumbsSwiper }}>
+          <Swiper id="main" modules={[Controller]} onSwiper={setThumbsSwiper}>
             {sliderItems.map((item) => {
               return (
                 <SwiperSlide
@@ -266,7 +241,7 @@ const Slider = () => {
                     <p className="text-[#707070]  text-base">{item.text}</p>
                     <button className="border-[1px] hidden lg:block  mt-3 py-2 border-solid border-[#FF7348] w-40 text-base text-[#FF7348] font-semibold rounded-md">
                       <a href="https://demo.remox.io/">
-                         View Demo
+                        View Demo
                       </a>
                     </button>
                   </div>
@@ -275,22 +250,23 @@ const Slider = () => {
             })}
           </Swiper>
           <div className="flex justify-center mt-10 lg:mt-0 items-center lg:absolute right-[15.2%] bottom-[28%] ">
-            <Swiper id="thumbs" slidesPerView={9} onSwiper={setThumbsSwiper}>
+            <Swiper id="thumbs" modules={[Controller]} slidesPerView={9} controller={{ control: thumbsSwiper }}   >
               {sliderNav.map((nav) => {
                 return (
-                    <SwiperSlide
-                      onClick={() => {
-                        setCurrentSlideIndex(nav.index);
-                      }}
-                      key={`thumb-${nav.index}`}
-                      className={`${
-                        currentSlideIndex === nav.index
-                          ? "bg-[#FADED5]"
-                          : "bg-white"
+                  <SwiperSlide
+                    onClick={() => {
+                      setCurrentSlideIndex(nav.index);
+                      console.log(thumbsSwiper)
+                      thumbsSwiper.slideTo(nav.index);
+                    }}
+                    key={`thumb-${nav.index}`}
+                    className={`${currentSlideIndex === nav.index
+                      ? "bg-[#FADED5]"
+                      : "bg-white"
                       }  !w-10 !h-10 rounded-[4px] flex justify-center items-center  ml-2 !shadow-custom z-20 cursor-pointer `}
-                    >
-                      {nav.icon}
-                    </SwiperSlide>
+                  >
+                    {nav.icon}
+                  </SwiperSlide>
                 );
               })}
             </Swiper>
@@ -302,3 +278,36 @@ const Slider = () => {
 };
 
 export default Slider;
+
+
+const TypeAnimate = React.memo(() => {
+  return <>
+    One platform for {" "}
+    <TypeAnimation
+      className="text-primary font-semibold"
+      cursor={true}
+      sequence={[
+        "Multi-wallet Management",
+        1000,
+        "Contributor Management",
+        1000,
+        "Payroll Management",
+        1000,
+        "Expense Management",
+        1000,
+        "Collaborative Budgeting",
+        1000,
+        "Risk Management",
+        1000,
+        "Portfolio Tracking",
+        1000,
+        "Bookkeeping & Accounting",
+        1000,
+        "Insights & Reporting",
+        1000,
+      ]}
+      wrapper={"span"}
+      repeat={Infinity}
+    />
+  </>
+}, (_, __) => true)

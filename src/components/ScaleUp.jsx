@@ -11,10 +11,8 @@ const ScaleUp = () => {
           Streamlined features allow you to plan, spend, invest, <span className="block">report, and
           manage your DAO treasury in one place.</span> 
         </p>
-        <button className="bg-[#FF7348] text-[#FFFFFF] rounded-md py-2 font-semibold text-lg w-64 mt-5">
-            <a href="" className="font-semibold">
+        <button onClick={()=> window.open("https://app.remox.io", "_blank")} className="bg-[#FF7348] text-[#FFFFFF] rounded-md py-3 font-semibold text-[1.125rem] w-60 mt-5">
               Enter App
-            </a>
         </button>
       </div>
     </div>
