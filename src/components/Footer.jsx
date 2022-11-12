@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="w-full h-full grid grid-cols-[50%,50%] sm:grid-cols-[70%,30%] ">
         <div className="flex">
           <div>
-          <img src="/Icons/logoFooter.svg" className="w-[10.5rem] h-[2.75rem]" />
+          <img src="/Icons/logo_white.png" className="w-[10.5rem] h-[2.75rem]" />
           </div>
         </div>
         <div className="w-full h-full flex justify-between">
@@ -58,7 +58,7 @@ export default function Footer() {
           &#169; 2022 Remox, Inc.
         </div>
         <div className="flex items-center justify-end">
-            <div className="text-xs sm:text-sm text-[#E5E5E5]">Liven on</div>
+            <div className="text-xs sm:text-sm text-[#E5E5E5]">Live on</div>
             <div className="chains ml-2 sm:ml-6 flex items-center justify-between space-x-3 md:space-x-6">
                 <img className="w-4 h-4 lg:w-6 lg:h-6" src="Icons/Chains/Ethereum.svg" alt="" />
                 <img className="w-4 h-4 lg:w-6 lg:h-6" src="Icons/Chains/Solana.svg" alt=""   />
