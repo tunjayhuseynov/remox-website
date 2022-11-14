@@ -15,8 +15,8 @@ export default function Navbar() {
                 <div className="cursor-pointer">
                     <a href="https://discord.gg/2r4hrNEbWn" target="_blank"><FaDiscord className='text-[#000] text-white text-[1.9rem] hover:text-[#7289DA] transition-all cursor-pointer' /></a>
                 </div>
-                <div className="self-center block pl-3">
-                    <button className="min-w-[7.5rem] px-2 py-[0.35rem] sm:px-4 sm:py-[0.594rem] sm:text-[14px] rounded-md font-semibold  bg-primary border-primary text-white hover:bg-[#ff5413] dark:hover:bg-[#ff5413] hover:border-[#ff5413]   hover:text-white transition-all duration-400" >Enter App</button>
+                <div className="self-center block pl-3" onClick={() => window.open("https://demo.remox.io/", "_blank")}>
+                    <button className="min-w-[7.5rem] px-2 py-[0.35rem] sm:px-4 sm:py-[0.594rem] sm:text-[14px] rounded-md font-semibold  bg-primary border-primary text-white hover:bg-[#ff5413] dark:hover:bg-[#ff5413] hover:border-[#ff5413] hover:text-white transition-all duration-400" >Enter App</button>
                 </div>
             </div>
         </div>
