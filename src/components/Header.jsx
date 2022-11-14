@@ -19,7 +19,7 @@ export default function Header() {
             dynamic risk assessments.</span>
         </h2>
         <div className="grid grid-cols-2 gap-20 w-[72%] lg:w-[33%]">
-          <button className="bg-[#FF7348] text-[#FFFFFF] rounded-md py-2 font-semibold text-lg hover:bg-white hover:text-[#FF7348] hover:border hover:border-[#FF7348] transition-all">
+          <button onClick={() => window.open("https://app.remox.io/", "_blank")} className="bg-[#FF7348] text-[#FFFFFF] rounded-md py-2 font-semibold text-lg hover:bg-white hover:text-[#FF7348] hover:border hover:border-[#FF7348] transition-all">
             <a href="">Connect Wallet</a>
           </button>
           <button onClick={() => window.open("https://demo.remox.io/", "_blank")} className="text-[#FF7348] hover:bg-[#FF7348] hover:text-white transition-all border-[1px] border-solid py-2 rounded-md border-[#FF7348] bg-transparent text-lg font-semibold">
