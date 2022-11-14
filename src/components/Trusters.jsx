@@ -8,7 +8,11 @@ const Trusters = () => {
     <div className="h-full w-full flex flex-col items-center justify-center">
       <div className="flex flex-wrap justify-around items-center px-10 gap-x-14 md:gap-x-4 gap-y-10 md:gap-y-3 lg:gap-x-5 space-y-3 sm:space-y-0 w-[90%] md:w-[68%] ">
         <a href="https://moola.market/" target="_blank">
-          <img src="Icons/Trusters/Moola.svg" className="w-[17rem] md:w-28 lg:w-44" alt="" />
+          {/* <img src="Icons/Trusters/Moola.svg" className="w-[17rem] md:w-28 lg:w-44" alt="" /> */}
+          <div className="flex space-x-2 items-center">
+            <img src="Icons/Trusters/moola_head.png" className="w-[5rem] md:w-28 lg:w-[2.875rem] rounded-full" alt="" />
+            <img src="Icons/Trusters/moola.png" className="w-[12rem] md:w-28 lg:w-[7.125rem] mb-3" alt="" />
+          </div>
         </a>
         <a href="https://celo.org/" target="_blank">
           <img src="Icons/Trusters/Celo.svg" alt="" className="w-[17rem] md:w-28 lg:w-44" />
